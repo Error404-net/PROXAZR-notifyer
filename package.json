@@ -1,0 +1,22 @@
+{
+  "name": "proxazr-notifyer",
+  "version": "1.0.0",
+  "description": "Azure Function to receive Proxmox webhooks and forward to Microsoft Graph email and/or Teams",
+  "main": "src/functions/proxmoxWebhook.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "func start",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "@eslint/js": "^9.11.1"
+  }
+}
