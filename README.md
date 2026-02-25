@@ -16,6 +16,7 @@ Production-ready Azure Function (Node.js, Azure Functions v4) that receives Prox
 ├── package.json
 ├── src/functions/proxmoxWebhook.js
 └── docs
+    ├── azure-manual-email-deploy.md
     ├── azure-oidc-setup.md
     ├── entra-graph-setup.md
     ├── exchange-app-access-policy.md
@@ -109,6 +110,7 @@ GitHub Actions workflow at `.github/workflows/deploy.yml`:
 - Deploys with `Azure/functions-action@v1`
 
 See setup docs:
+- [Manual Azure deployment (email only)](docs/azure-manual-email-deploy.md)
 - [Azure OIDC setup](docs/azure-oidc-setup.md)
 - [Entra app + Graph permissions](docs/entra-graph-setup.md)
 - [Exchange Online Application Access Policy](docs/exchange-app-access-policy.md)
